@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+<session-factory>
+    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql://us-cdbr-iron-east-03.cleardb.net/heroku_5903db1a2be077d</property>
+    <property name="hibernate.connection.username">b9db17aa178f4a</property>
+    <property name="hibernate.connection.password">2c7ef219</property>
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+    <property name="show_sql">true</property>
+    <mapping resource="category.hbm.xml" />
+    <mapping resource="film.hbm.xml" />
+    <mapping resource="filmcategory.hbm.xml" />
+  
+</session-factory>
+</hibernate-configuration>
