@@ -22,6 +22,7 @@ import com.gc.herokudemo.dto.Film;
  * Data access object for Heroku Movie database
  */
 public class MovieDao {
+	
 	/*
 	 * Return list of categories from the Category Table
 	 */
